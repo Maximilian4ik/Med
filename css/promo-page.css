@@ -1,0 +1,322 @@
+.promo-page-main {
+  background: url("../images/promo-main.jpg") no-repeat;
+  background-size: cover;
+}
+
+.promo-page-main .breadcrumb {
+  margin-bottom: 64px;
+}
+
+/* ----------------------- */
+
+.promo-desc-wrap {
+  padding: 122px 0 118px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc-text {
+  max-width: 1140px;
+}
+
+.desc-text .title {
+  font-size: 60px;
+}
+
+.desc-text .subtitle {
+  margin-top: 36px;
+  margin-bottom: 90px;
+  font-size: 20px;
+}
+
+.title.border {
+  padding-bottom: 36px;
+  border-bottom: 1px solid rgba(31, 135, 123, 0.4);
+}
+
+.desc-ul {
+  margin-top: 36px;
+}
+
+.desc-ul li {
+  padding-left: 32px;
+  color: #595757;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 54px; /* 270% */
+  letter-spacing: -0.1px;
+  position: relative;
+}
+
+.desc-ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background: url("../images/g_marker.svg");
+}
+
+.p-p-r {
+  margin-left: 20px;
+}
+
+/* ----------------------- */
+.promo-adv .adv-card {
+  padding-right: 0;
+  padding-bottom: 56px;
+  height: auto;
+}
+
+.promo-adv .adv-title {
+  padding-right: 47px;
+  margin-bottom: 30px;
+}
+
+.promo-adv .adv-subtitle {
+  padding-right: 32px;
+}
+/* ----------------------------- */
+
+.promo-price {
+  margin-top: 120px;
+}
+
+.promo-price .subtitle {
+  font-size: 16px;
+  margin-top: 20px;
+  max-width: 1077px;
+}
+
+@media screen and (max-width: 1440px) {
+  .promo-page-main {
+    padding: 66px 0 172px;
+  }
+  .promo-page-main .page-main-t {
+    font-size: 90px;
+    margin: 44px 0 48px;
+  }
+
+  .promo-page-main .breadcrumb {
+    margin-bottom: 88px;
+  }
+
+  .promo-page-main .page-main-s.white {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 44px; /* 157.143% */
+    letter-spacing: -0.42px;
+  }
+
+  .promo-desc-wrap {
+    padding: 90px 0;
+  }
+  .promo-adv .adv-card {
+    padding-bottom: 43px;
+  }
+
+  .promo-adv .adv-title {
+    padding-right: 20px;
+  }
+
+  .promo-adv .adv-subtitle {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .desc-text {
+    max-width: none;
+  }
+  .desc-text .subtitle {
+    margin-bottom: 32px;
+  }
+
+  .promo-desc .question {
+    margin-bottom: 32px;
+  }
+
+  .promo-desc .question-wrapper {
+    padding-bottom: 0 !important;
+  }
+
+  .promo-adv .adv-card {
+  }
+
+  .serv-p-adv .adv_num {
+    font-size: 80px;
+  }
+  .promo-adv .adv-title {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.54px;
+    font-weight: 369;
+    line-height: 44px;
+  }
+
+  .promo-adv .adv-subtitle {
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .promo-page-main {
+    padding: 40px 0 161px;
+    background-position: right;
+  }
+
+  .promo-page-main .breadcrumb {
+    margin-bottom: 84px;
+  }
+
+  .promo-page-main .page-main-t {
+    font-size: 56px;
+    margin: 44px 0 32px;
+  }
+
+  .promo-page-main .page-main-s.white {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.1px;
+    max-width: 558px !important;
+  }
+
+  .promo-desc-wrap {
+    padding: 60px 0;
+  }
+
+  .desc-text .title {
+    font-size: 56px;
+  }
+
+  .desc-text .subtitle {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 27px; /* 168.75% */
+    letter-spacing: 0.08px;
+  }
+
+  .promo-desc .title.border {
+    padding-bottom: 16px;
+  }
+
+  .promo-desc .desc-ul {
+    margin-bottom: 28px;
+  }
+  .promo-desc .desc-ul li {
+    font-size: 16px;
+    padding-left: 23px;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
+    letter-spacing: 0.08px;
+  }
+
+  .promo-desc .desc-ul li:not(:last-child) {
+    margin-bottom: 44px;
+  }
+
+  .promo-adv .adv-card {
+    padding: 32px 47px 37px 28px;
+  }
+
+  .promo-adv .adv-subtitle {
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
+    letter-spacing: 0.08px;
+  }
+
+  .promo-adv {
+    padding: 44px 0 60px;
+  }
+  .advantages .title {
+    margin-bottom: 30px;
+  }
+
+  .promo-price {
+    margin: 60px 0 56px;
+  }
+
+  .promo-price .title {
+    font-size: 56px;
+    line-height: 120%;
+    margin-bottom: 12px;
+  }
+  .price_list h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .promo-page-main {
+    padding: 40px 0 153px;
+  }
+
+  .promo-page-main .breadcrumb {
+    margin-bottom: 68px;
+  }
+
+  .promo-page-main .page-main-t {
+    font-size: 48px;
+    font-weight: 369;
+    line-height: 100%; /* 48px */
+    letter-spacing: -0.72px;
+    margin: 44px 0 32px;
+  }
+
+  .promo-desc-wrap {
+    padding: 58px 0 56px;
+  }
+
+  .desc-text .title {
+    font-size: 48px;
+  }
+
+  .desc-text .subtitle {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+  }
+  .promo-desc .desc-ul li:not(:last-child) {
+    margin-bottom: 39px;
+  }
+
+  .promo-adv .adv-card {
+    padding-bottom: 24px;
+    margin-bottom: 12px;
+  }
+
+  .promo-price {
+    margin: 56px 0;
+  }
+  .promo-price .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .promo-adv .adv-card {
+    padding-left: 20px;
+  }
+  .promo-adv .adv-title {
+    padding: 0;
+  }
+
+  .price_list h3 {
+    font-size: 14px;
+  }
+
+  .red_price > span::after {
+    /* top: 0;
+    left: 0; */
+    /* position: relative; */
+  }
+
+  /* .red_price span {
+    margin-top: 20px !important;
+  } */
+}

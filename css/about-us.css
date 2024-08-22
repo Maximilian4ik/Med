@@ -1,0 +1,865 @@
+.ab-clinic {
+  padding: 120px 0;
+}
+
+.ab-clinic .title {
+  margin-bottom: 60px;
+}
+
+.ab-c-wrap {
+  position: relative;
+  display: flex;
+  border-radius: 10px;
+}
+.ab-c-wrap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 12.66%);
+  background: rgb(227, 239, 239);
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.ab-c-text {
+  padding-top: 100px;
+  padding-left: 80px;
+  padding-bottom: 100px;
+  margin-right: 55px;
+}
+
+.ab-c-text .title {
+  font-size: 56px;
+  margin-bottom: 48px;
+  max-width: 463px;
+}
+
+.ab-c-text p {
+  margin-bottom: 56px;
+  max-width: 593px;
+  color: #595757;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+  letter-spacing: -0.12px;
+}
+
+.ab-c-text span {
+  font-family: Oswald;
+  font-size: 28px;
+  display: block;
+  max-width: 409px;
+  padding-left: 110px;
+  position: relative;
+  margin-top: 76px;
+}
+
+.ab-c-text span::before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../images/logo-min.svg");
+}
+
+.ab-c-cards {
+  /* position: absolute;
+  right: 57px;
+  top: 36px; */
+  margin-top: 36px;
+  max-width: 937px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ab-c-card {
+  border-radius: 8px;
+  border: 1px solid #1f877b;
+  background: #fafcfc;
+  padding: 73px 70px 73px 184px;
+  position: relative;
+}
+
+.ab-c-card::before {
+  content: "";
+  position: absolute;
+
+  top: 50%;
+  transform: translateY(-50%);
+  left: 58px;
+}
+
+.ab-c-card.c1::before {
+  background: url("../images/ab-us/1.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 56px;
+}
+.ab-c-card.c2::before {
+  background: url("../images/ab-us/2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 61px;
+  height: 60px;
+}
+.ab-c-card.c3::before {
+  background: url("../images/ab-us/3.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 51px;
+  height: 51px;
+}
+
+.ab-c-card span {
+  color: #595757;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+  letter-spacing: -0.12px;
+}
+
+/* ---------------------- */
+
+.about-us-m {
+  background: url("../images/about-page-back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 68px 0 102px;
+}
+
+.page-main-t.white {
+  color: #d5e9e6;
+  background: none;
+  background-clip: initial;
+  -webkit-background-clip: initial;
+  -webkit-text-fill-color: initial;
+}
+
+.about-us-m .page-main-t {
+  margin: 42px 0 48px;
+}
+
+.about-us-m .page-main-s.white {
+  color: #e5eff0;
+  max-width: 1456px;
+}
+
+/* -------------------------------------------- */
+
+/* .about-clinic {
+  padding-top: 120px;
+  padding: 120px 0 236px;
+  margin-bottom: 0;
+}
+
+.about-clinic .about-us-wrapper {
+  background: #1f877b;
+  background: rgb(31, 135, 123, 0.1);
+  border-radius: 12px;
+}
+
+
+.about-clinic h4 {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 369;
+  line-height: 120%; 
+  letter-spacing: -0.56px;
+}
+
+.about-clinic .subtitle {
+  color: #595757;
+  font-family: Roboto Flex;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; 
+  letter-spacing: -0.12px;
+  max-width: 539px;
+}
+
+.ab-clinic {
+  gap: 0;
+  justify-content: space-between;
+}
+
+.ab-clinic {
+  padding-left: 80px;
+  padding-right: 57px;
+}
+
+.ab-clinic span {
+  font-family: Oswald;
+  font-size: 28px;
+  display: block;
+  max-width: 409px;
+  padding-left: 110px;
+  position: relative;
+}
+
+.ab-clinic span::before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../images/logo-min.svg");
+} */
+
+/* ------------------------ */
+
+.ab-eq {
+  background: url("../images/ab-us-slider.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 44px;
+}
+
+.ab-eq .title {
+  max-width: 1125px;
+  margin-bottom: 60px;
+}
+
+.ab-slider-arr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.ab-slider-arr > * {
+  position: static;
+  cursor: pointer;
+  display: block;
+}
+
+.ab-slider-arr img {
+  display: block;
+  width: 100%;
+}
+
+.ab-eq .promo-slider-dots {
+  bottom: -70px;
+}
+/* ------------------------------ */
+
+.vmi {
+  padding: 120px 0;
+}
+
+.vmi .title {
+  margin-bottom: 44px;
+}
+
+.vmi .subtitle {
+  margin-bottom: 48px;
+}
+
+.vms-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.vms-card {
+  padding: 52px 65px 50px 148px;
+  max-width: 850px;
+  width: 100%;
+  border-radius: 12px;
+  background: rgb(222, 238, 237);
+  position: relative;
+}
+
+.vms-card span {
+  font-family: Oswald;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 369;
+  line-height: 44px; /* 122.222% */
+  letter-spacing: -0.54px;
+}
+
+.vms-card::before {
+  content: "";
+  position: absolute;
+  left: 56px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 68px;
+  height: 68px;
+  background: url("../images/vmi.svg");
+}
+
+/* ----------------------------------- */
+
+.partners {
+  padding-bottom: 144px;
+  overflow: visible;
+}
+
+.part-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.part-arr {
+  gap: 20px;
+}
+
+.part-arr div {
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+
+.part-arr div img {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.part-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.part-slider {
+  padding-bottom: 40px;
+}
+
+.part-item img {
+  padding: 85px 60px;
+  width: 100%;
+}
+
+.part-slider .promo-slider-dots {
+  bottom: 0px;
+}
+
+/* ---------------------------- */
+
+.sertificates {
+  padding: 100px 0 70px;
+  background: url("../images/serteficate/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sertificates .title {
+  /* margin-bottom: 44px; */
+  margin: 0;
+}
+
+.sertificates-slider {
+  position: relative;
+  padding-bottom: 24px;
+  /* overflow: hidden !important; */
+}
+
+.sert-slide {
+  margin: 0 21px;
+}
+
+.sertificates .main-slider-dots {
+  position: absolute;
+  bottom: -34px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.sert-slider-arr {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.specialists img {
+  width: auto;
+}
+
+.sert-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 44px;
+}
+
+.sert-slider-arr {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  width: 100%;
+}
+.sert-slider-arr img {
+  width: 100%;
+}
+
+.sert-slider-arr .slick-arrow {
+  position: static;
+  /* width: 100%; */
+  cursor: pointer;
+}
+
+.sert-slide img {
+  width: 100%;
+}
+
+.ab-gall .title {
+  margin-top: 0;
+}
+
+.part-arr.last {
+  display: none;
+}
+
+@media screen and (max-width: 1640px) {
+  .ab-c-text {
+    margin-right: 12px;
+    padding-top: 76px;
+    padding-left: 50px;
+  }
+
+  .ab-c-text .title {
+    font-size: 36px;
+    max-width: 294px;
+  }
+  .ab-c-text p {
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 437px;
+    margin-bottom: 20px;
+  }
+
+  .ab-c-text span {
+    margin-top: 50px;
+  }
+
+  .ab-c-card {
+    padding: 58px 34px 58px 140px;
+  }
+
+  .ab-c-card span {
+    font-size: 20px;
+  }
+  .ab-c-cards {
+    padding-right: 12px;
+  }
+}
+
+@media screen and (max-width: 1448px) {
+  .about-us-m {
+    padding: 66px 0 112px;
+  }
+
+  .about-us-m .page-main-s.white {
+    max-width: 1153px;
+  }
+
+  .sertificates .title {
+    font-size: 64px;
+  }
+
+  .ab-clinic .title {
+    font-size: 56px;
+    margin-bottom: 44px;
+  }
+  .ab-c-text {
+    padding-top: 37px;
+    padding-left: 22px;
+  }
+
+  .ab-c-wrap {
+    /* flex-direction: column; */
+  }
+
+  .ab-c-text .title {
+    max-width: 294px;
+    font-size: 36px;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.54px;
+  }
+  .ab-c-text p {
+    max-width: 437px;
+  }
+
+  .ab-c-text span::before {
+    width: 76px;
+    height: 76px;
+    background-size: cover;
+  }
+
+  .ab-c-text {
+    padding-bottom: 48px;
+  }
+
+  .ab-c-cards {
+    margin-top: 36px;
+  }
+  .ab-c-text span {
+    max-width: none;
+    padding-left: 92px;
+  }
+
+  .ab-c-card::before {
+    left: 44px;
+  }
+
+  .ab-c-text {
+    padding-top: 76px;
+    padding-left: 50px;
+  }
+
+  .ab-c-cards {
+    max-width: none;
+  }
+
+  .ab-clinic {
+    padding: 60px 0;
+  }
+
+  .abus-d {
+    max-width: 413px;
+    height: 484px;
+    padding: 40px 0 40px 28px;
+  }
+  .abus-d > img {
+    width: 284px !important;
+    height: auto;
+  }
+
+  .ab-eq .title {
+    margin-bottom: 40px;
+  }
+
+  .vmi {
+    padding: 90px 0;
+  }
+  .vmi .title {
+    margin-bottom: 24px;
+  }
+
+  .vmi .subtitle {
+    margin-bottom: 36px;
+  }
+
+  .vms-card {
+    padding: 25px 28px 25px 86px;
+    vertical-align: middle;
+  }
+
+  .vms-card::before {
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .vms-card span {
+    font-size: 20px;
+  }
+
+  .part-top {
+    margin-bottom: 40px;
+  }
+
+  .part-item img {
+    /* padding: 49px 45px; */
+    /* padding: 0; */
+    /* width: 305px;
+    height: 70px; */
+  }
+
+  .sertificates {
+    padding: 48px 0 136px;
+  }
+
+  .ab-dir .button {
+    margin-bottom: 90px;
+  }
+
+  .ab-gall .title {
+    margin-top: 0;
+  }
+
+  .partners {
+    padding-bottom: 128px;
+  }
+
+  .part-top .title {
+    font-size: 56px;
+    /* margin-bottom: 40px; */
+  }
+
+  .part-item img {
+    padding: 49px 45px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1180px) {
+  .ab-c-wrap {
+    flex-direction: column;
+  }
+
+  .ab-c-text {
+    padding-left: 10px;
+    padding-top: 40px;
+  }
+
+  .ab-c-text .title {
+    margin-bottom: 20px;
+  }
+  .ab-c-text .title,
+  .ab-c-text p {
+    max-width: none;
+  }
+
+  .ab-c-text span::before {
+    width: 51px;
+    height: 51px;
+  }
+
+  .ab-c-cards {
+    margin-top: 0;
+  }
+
+  .ab-c-card::before {
+    left: 24px;
+  }
+
+  .ab-c-cards {
+    padding-right: 0;
+  }
+
+  .ab-c-card {
+    padding-left: 116px;
+    padding-right: 47px;
+  }
+
+  .vmi {
+    padding: 60px 0;
+  }
+
+  .vmi .title {
+    font-size: 56px;
+  }
+
+  .vms-card {
+    padding: 36px 91px 35px 86px;
+  }
+
+  .vms-card span {
+    font-size: 20px;
+    line-height: 100%; /* 20px */
+    letter-spacing: 0.6px;
+  }
+
+  .vms-card::before {
+    left: 20px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .about-us-m {
+    padding: 40px 0 73px;
+  }
+
+  .about-us-m .page-main-t {
+    margin: 48px 0 24px;
+    font-size: 56px;
+  }
+
+  .about-us-m .page-main-s {
+    font-size: 20px;
+    max-width: 618px;
+    font-weight: 554;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.1px;
+  }
+
+  .ab-c-card {
+    padding: 47px 47px 47px 116px;
+  }
+
+  .sertificates {
+    padding: 44px 0 47px;
+  }
+
+  .ab-slider-arr.first {
+    display: none;
+  }
+
+  .part-slider-wrap {
+    position: relative;
+  }
+
+  .part-slider {
+    padding-bottom: 0;
+  }
+
+  .part-arr.last {
+    margin-top: 0;
+    gap: 0;
+    /* bottom: 20px; */
+  }
+  .part-slider .promo-slider-dots {
+    bottom: -39px;
+  }
+
+  .part-arr.last .slick-arrow {
+    /* position: absolute; */
+  }
+
+  .part-top .title {
+    font-size: 56px;
+  }
+
+  .part-arr.last {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .about-us-m {
+    background-position: right;
+  }
+  .about-us-m .page-main-t {
+    font-size: 48px;
+    margin: 28px 0 24px;
+  }
+
+  .about-us-m .page-main-s {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.07px;
+  }
+
+  .ab-clinic {
+    padding: 56px 0;
+  }
+  .ab-c-text {
+    padding-top: 44px;
+  }
+
+  .ab-c-text .title {
+    margin-bottom: 24px;
+  }
+
+  .ab-c-text p {
+    font-size: 14px;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.07px;
+  }
+
+  .ab-c-text span {
+    padding-left: 58px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 20px */
+    letter-spacing: 0.6px;
+  }
+
+  .ab-c-card span {
+    font-size: 14px;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.07px;
+  }
+
+  .ab-c-card::before {
+    left: 16px;
+  }
+
+  .ab-c-card {
+    padding-left: 72px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+  }
+
+  .ab-c-card.c1::before {
+    width: 42px;
+    height: 37px;
+  }
+  .ab-c-card.c2::before {
+    width: 40px;
+    height: 40px;
+  }
+
+  .ab-c-card.c3::before {
+    width: 34px;
+    height: 34px;
+  }
+
+  .vmi .title {
+    font-size: 48px;
+    font-weight: 369;
+    line-height: 100%; /* 48px */
+    letter-spacing: -0.72px;
+  }
+  .vmi .subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+    margin-bottom: 15px;
+  }
+
+  .vms-card {
+    padding: 16px 8px 16px 66px;
+  }
+
+  .vms-card::before {
+    left: 15px;
+    width: 34px;
+    height: 34px;
+  }
+  .vms-card span {
+    line-height: 100%; /* 20px */
+    letter-spacing: 0.6px;
+    font-weight: 400;
+  }
+
+  .sert-top {
+    margin-bottom: 39px;
+  }
+
+  .sertificates .title {
+    font-size: 48px;
+  }
+
+  .sertificates {
+    padding: 39px 0 41px;
+  }
+
+  .part-top .title {
+    font-size: 48px;
+  }
+  .part-item img {
+    padding: 25px 0;
+  }
+
+  .part-item {
+    margin: 0 10px;
+  }
+}

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Inter&family=Oswald:wght@300;400;500&family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../slick/slick.css" />
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+    <script defer src="../slick/slick.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/specialists.css" />
+    <link rel="stylesheet" href="../css/doctor_page.css" />
+    <link rel="stylesheet" href="../css/price.css" />
+    <link rel="stylesheet" href="../css/services.css" />
+    <link rel="stylesheet" href="../css/serv-page.css" />
+    <link rel="stylesheet" href="../css/about-us.css" />
+    <link rel="stylesheet" href="../css/dms.css" />
+    <link rel="stylesheet" href="../css/discount.css" />
+    <link rel="stylesheet" href="../css/promotion.css" />
+    <link rel="stylesheet" href="../css/promo-page.css" />
+    <link rel="stylesheet" href="../css/contacts.css" />
+    <link rel="stylesheet" href="../css/error.css" />
+    <link rel="stylesheet" href="css/registration.css" />
+    <link rel="stylesheet" href="css/start.css" />
+    <link rel="stylesheet" href="css/analysis-cards.css" />
+    <link rel="stylesheet" href="css/a-res.css" />
+    <link rel="stylesheet" href="css/reception.css" />
+    <link rel="stylesheet" href="css/res-page.css" />
+    <link rel="stylesheet" href="css/orders.css" />
+    <link rel="stylesheet" href="css/lk-docs.css" />
+    <link rel="stylesheet" href="css/a-selected.css" />
+    <link rel="stylesheet" href="css/profile_management.css" />
+
+    <!-- <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"
+  ></script> -->
+    <!-- <script
+    defer
+    src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"
+  ></script> -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <script defer src="../js/main.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-top">
+          <div class="container">
+            <div class="header-info">
+              <p>
+                <img src="images/header/location.svg" alt="" />г. Нижний
+                Новгород Московское шоссе
+              </p>
+              <p>
+                <img src="images/header/clock.svg" alt="" /> C 9.00 до 21.00
+                ежедневно
+                <button><img src="images/header/menu.svg" alt="" /></button>
+              </p>
+            </div>
+            <button class="glasses">
+              <img src="images/glasses_ico.svg" alt="" />
+            </button>
+            <button class="reception" id="reception">
+              <p>Записаться на прием</p>
+            </button>
+            <div class="header_buttons">
+              <a href="tel:" class="number">8 (831) 279 88 23</a>
+              <a href="" class="basket">
+                <img src="images/header/basket.svg" alt="" />
+              </a>
+              <a href="" class="acc">
+                <img src="images/header/acc.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="container">
+            <a href="#" class="header-logo">
+              <img src="images/logo.svg" alt="" />
+            </a>
+            <a href="tel:" class="number">8 (831) 279 88 23</a>
+            <nav class="menu-nav">
+              <ul class="menu-list">
+                <li class="menu-list_item">
+                  <a href="#" class="menu-list_link">О НАС</a>
+                </li>
+                <li class="menu-list_item">
+                  <a href="#" class="menu-list_link item-menu">УСЛУГИ</a>
+                  <ul class="sub-menu">
+                    <li><a href="">ЦЕНТР ЖЕНСКОГО ЗДОРОВЬЯ</a></li>
+                    <li><a href="">ДЕТИ</a></li>
+                    <li><a href="">ПОЛИКЛИНИЧЕСКИЙ ЦЕНТР</a></li>
+                    <li><a href="">ЛАБОРАТОРИЯ</a></li>
+                    <li>
+                      <a class="usi" href="">УЗИ ДИАГНОСТИКА</a>
+                      <ul class="sub-sub-menu">
+                        <li><a href="">УЗИ органов малого таза</a></li>
+                        <li><a href="">3D УЗИ органов малого таза</a></li>
+                        <li><a href="">УЗИ щитовидной железы</a></li>
+                        <li><a href="">УЗИ молочных желез</a></li>
+                        <li><a href="">УЗИ тазового дна</a></li>
+                        <li><a href="">УЗИ сердца (эхокардиография)</a></li>
+                        <li><a href="">УЗИ брюшной полости и почек</a></li>
+                        <li><a href="">УЗИ головного мозга </a></li>
+                      </ul>
+                    </li>
+                    <li><a href="">ПРОЦЕДУРНЫЙ КАБИНЕТ</a></li>
+                    <li><a href="">ДНЕВНОЙ СТАЦИОНАР</a></li>
+                    <li><a href="">ВЫЕЗД НА ДОМ</a></li>
+                    <li><a href="">ПРЕДРЕЙСОВЫЕ И ПОСЛЕРЕЙСОВЫЕ ОСМОТРЫ</a></li>
+                    <li><a href="">СУТОЧНОЕ ИЗМЕРЕНИЕ АД И ЭКГ</a></li>
+                  </ul>
+                </li>
+                <li class="menu-list_item">
+                  <a href="#" class="menu-list_link">ВРАЧИ</a>
+                </li>
+                <li class="menu-list_item">
+                  <a href="#" class="menu-list_link">АКЦИИ</a>
+                </li>
+                <li class="menu-list_item">
+                  <a href="#" class="menu-list_link">ЦЕНЫ КОНТАКТЫ</a>
+                </li>
+                <li class="menu-list_item">
+                  <a href="#" class="menu-list_link">КОНТАКТЫ</a>
+                </li>
+                <li class="menu-list_item">
+                  <a href="#" class="menu-list_link"
+                    ><img src="images/header/dots.svg" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+            <button class="header-search">
+              <img src="images/header/search.svg" alt="" />
+            </button>
+            <div class="header-bottom-buttons">
+              <button class="reception" id="reception">
+                <p>Записаться на прием</p>
+              </button>
+              <button class="store" id="store">
+                <p class="store_text">Магазин анализов</p>
+              </button>
+            </div>
+            <div class="menu-burger" id="menu-burger">
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="mob-menu">
+          <div class="mob-menu-wrapper">
+            <div class="mob-menu-nav">
+              <ul>
+                <li><a href="">О НАС</a></li>
+                <li>
+                  <a href="#" id="mob-sub">УСЛУГИ </a>
+                  <ul class="mob-sub">
+                    <li><a href="">УЗИ органов малого таза</a></li>
+                    <li><a href="">3D УЗИ органов малого таза</a></li>
+                    <li><a href="">УЗИ щитовидной железы</a></li>
+                    <li><a href="">УЗИ молочных желез</a></li>
+                    <li><a href="">УЗИ тазового дна</a></li>
+                    <li><a href="">УЗИ сердца (эхокардиография)</a></li>
+                    <li><a href="">УЗИ брюшной полости и почек</a></li>
+                    <li><a href="">УЗИ головного мозга </a></li>
+                  </ul>
+                </li>
+                <li><a href="">ВРАЧИ</a></li>
+                <li><a href="">АКЦИИ</a></li>
+                <li><a href="">ЦЕНЫ</a></li>
+                <li><a href="">КОНТАКТЫ</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="registration-wrap">
+          <div class="container">
+            <div class="overlay" id="overlay"></div>
+            <div class="registration-popup" id="registration-popup">
+              <div class="tel-popup">
+                <button class="close-reg close-popup" id="close-popup">
+                  <img src="img/close.svg" alt="" />
+                </button>
+                <p class="green-text">Подтверждение телефона</p>
+                <p class="text">
+                  Для завершения регистрации введите проверочный код,
+                  отправленный на номер +7 (910) 123-45-78.
+                </p>
+                <a href="#">Изменить номер телефона</a>
+                <div class="input-code">
+                  <input
+                    type="text"
+                    maxlength="1"
+                    class="digit-input"
+                    placeholder="_"
+                  />
+                  <input
+                    type="text"
+                    maxlength="1"
+                    class="digit-input"
+                    placeholder="_"
+                  />
+                  <input
+                    type="text"
+                    maxlength="1"
+                    class="digit-input"
+                    placeholder="_"
+                  />
+                  <input
+                    type="text"
+                    maxlength="1"
+                    class="digit-input"
+                    placeholder="_"
+                  />
+                  <input
+                    type="text"
+                    maxlength="1"
+                    class="digit-input"
+                    placeholder="_"
+                  />
+                </div>
+                <button>Отправить код повторно</button>
+                <button class="green-btn">Подтвердить</button>
+              </div>
+              <div class="mail-popup">
+                <button class="close-reg close-popup" id="close-popup">
+                  <img src="img/close.svg" alt="" />
+                </button>
+                <p class="green-text">Подтверждение телефона</p>
+                <p class="text">
+                  Для завершения регистрации введите проверочный код,
+                  отправленный на номер klinika123@gmail.com
+                </p>
+                <a href="#">Изменить номер телефона</a>
+                <div class="input-code">
+                  <input
+                    type="text"
+                    maxlength="1"
+                    class="digit-input"
+                    placeholder="_"
+                  />
+                  <input
+                    type="text"
+                    maxlength="1"
+                    class="digit-input"
+                    placeholder="_"
+                  />
+                  <input
+                    type="text"
+                    maxlength="1"
+                    class="digit-input"
+                    placeholder="_"
+                  />
+                  <input
+                    type="text"
+                    maxlength="1"
+                    class="digit-input"
+                    placeholder="_"
+                  />
+                  <input
+                    type="text"
+                    maxlength="1"
+                    class="digit-input"
+                    placeholder="_"
+                  />
+                </div>
+                <button>Отправить код повторно</button>
+                <button class="green-btn">Подтвердить</button>
+              </div>
+            </div>
+            <div class="registration-form">
+              <a href="#" class="back-btn"> Вернуться назад </a>
+              <h2 class="title">Вход в личный кабинет</h2>
+              <div class="reg-tabs">
+                <a href="#" class="reg-tab" data-tab="login">Войти</a>
+                <a href="#" class="reg-tab active" data-tab="registration">
+                  Зарегистрироваться
+                </a>
+              </div>
+              <form class="reg-form reg-content" action="#" id="registration">
+                <input type="text" name="firstname" placeholder="Фамилия" />
+                <input type="text" name="surname" placeholder="Имя" />
+                <input type="text" name="patronymic" placeholder="Отчество" />
+                <input
+                  type="date"
+                  name="birthday"
+                  placeholder="Дата рождения"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Ваш e-mail или телефон"
+                />
+                <div class="password">
+                  <input
+                    class="password-input"
+                    type="password "
+                    placeholder="Текущий пароль"
+                  />
+                  <a href="#" class="password-control"></a>
+                </div>
+                <div class="password">
+                  <input
+                    class="password-input"
+                    type="password"
+                    placeholder="Новый пароль"
+                  />
+                  <a href="#" class="password-control"></a>
+                </div>
+                <input type="checkbox" id="reg-check" />
+                <label for="reg-check">
+                  Я даю согласие на обработку персональных данных
+                </label>
+                <br />
+                <button class="green-btn" id="registration">
+                  Зарегистрироваться
+                </button>
+              </form>
+              <form class="reg-content log-form" action="#" id="login">
+                <input
+                  class=""
+                  type="text"
+                  placeholder="Ваш e-mail или телефон"
+                />
+                <a href="#" class="password-control"></a>
+
+                <div class="password">
+                  <input
+                    class="password-input"
+                    type="password"
+                    placeholder="Новый пароль"
+                  />
+                  <a href="#" class="password-control"></a>
+                  <!-- <input type="checkbox" />
+                  <label>Я даю согласие на обработку персональных данных</label>
+                  <br />
+                  <button class="green-btn">Зарегистрироваться</button> -->
+                </div>
+                <input type="checkbox" id="log-checkbox" />
+                <label for="log-checkbox">
+                  Я даю согласие на обработку персональных данных
+                </label>
+                <br />
+                <button class="green-btn">Войти</button>
+              </form>
+            </div>
+            <div class="registration-info">
+              <h3 class="title white">Личный кабинет дает возможность:</h3>
+              <ul>
+                <li>
+                  Получать медицинские услуги по более выгодным ценам, чем при
+                  оплате офлан
+                </li>
+                <li>Узнавать о своих привилегиях</li>
+                <li>Заранее заказывать анализы</li>
+                <li>Оперативно получать результаты анализов</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-wrapper">
+          <div class="container">
+            <img
+              class="footer-logo"
+              src="images/footer/footer_logo.png"
+              alt=""
+            />
+            <div class="footer-el">
+              <div class="foot-adress">
+                <h4>Адрес</h4>
+                <a>г. Н.Новгород ул.Московское шоссе, д.187</a>
+              </div>
+              <div class="foot-contact">
+                <h4>Контакты</h4>
+                <a href="#" class="foot-tel">+7(831) 279-88-23</a>
+                <a href="#" class="foot-email">akademia.zdorovja@yandex.ru</a>
+              </div>
+              <div class="foot-worktime">
+                <h4 class="">Режим работы</h4>
+                <p>С 9.00 до 21.00 ежедневно</p>
+                <p>Лаборатория : 8.00 – 16.00</p>
+              </div>
+            </div>
+            <div class="footer-el">
+              <div class="foot-direction">
+                <h4>Направления</h4>
+                <a href="">Центр женского здоровья</a>
+                <a href="">Центр мужского здоровья</a>
+                <a href="">Дети (анализы, УЗИ, инъекции)</a>
+                <a href="">Операционный блок</a>
+                <a href="">Дневной стационар</a>
+                <a href="">Лаблоратория</a>
+                <a href="">Ультрозвуковая диагностика</a>
+                <a href="">Выезд на дом</a>
+                <a href="">Процедурный кабинет</a>
+              </div>
+            </div>
+            <div class="footer-el">
+              <div class="foot-about-us">
+                <h4>О нас</h4>
+                <a href="">О клинике</a>
+                <a href="">Специалисты</a>
+                <a href="">Оборудование</a>
+                <a href="">Контакты</a>
+                <a href="">Сертификаты</a>
+                <a href="">Направления</a>
+              </div>
+            </div>
+            <div class="footer-el">
+              <div class="foot-client">
+                <h4>Клиенту</h4>
+                <a href="">ОМС</a>
+                <a href="">Прайс-лист</a>
+                <a href="">Акции</a>
+                <a href="">Карта сайта</a>
+              </div>
+              <div class="messengers">
+                <h4>Связаться с нами:</h4>
+                <div class="messengers-links">
+                  <a href=""><img src="images/footer/telegram.svg" alt="" /></a>
+                  <a href=""
+                    ><img src="images/footer/whatsapp Line.svg" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="images/footer/whatsapp_line.svg" alt=""
+                  /></a>
+                  <a href=""><img src="images/footer/vk.svg" alt="" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mob-footer">
+          <div class="foot-adress">
+            <h4>Адрес</h4>
+            <a>г. Н.Новгород ул.Московское шоссе, д.187</a>
+          </div>
+          <div class="foot-worktime">
+            <h4 class="">Режим работы</h4>
+            <p>С 9.00 до 21.00 ежедневно</p>
+            <p>Лаборатория : 8.00 – 16.00</p>
+          </div>
+          <div class="foot-contact">
+            <h4>Контакты</h4>
+            <a href="#" class="foot-tel">+7(831) 279-88-23</a>
+            <a href="#" class="foot-email">akademia.zdorovja@yandex.ru</a>
+          </div>
+          <div class="messengers">
+            <h4>Связаться с нами:</h4>
+            <div class="messengers-links">
+              <a href=""><img src="images/footer/telegram.svg" alt="" /></a>
+              <a href=""
+                ><img src="images/footer/whatsapp Line.svg" alt=""
+              /></a>
+              <a href=""
+                ><img src="images/footer/whatsapp_line.svg" alt=""
+              /></a>
+              <a href=""><img src="images/footer/vk.svg" alt="" /></a>
+            </div>
+          </div>
+          <ul class="mob-foot-menu">
+            <li class="foot-menu-li">
+              <a href="" class=""><h4>Клиенту</h4></a>
+              <a class="foot-sub-btn" id="foot-sub-btn" href="#">
+                <img src="images/footer/footer-arr.svg" alt="" />
+              </a>
+              <ul class="footer-sub">
+                <li>
+                  <a href="#">ОМС</a>
+                </li>
+                <li>
+                  <a href="#">Прайс-лист</a>
+                </li>
+                <li>
+                  <a href="#">Акции</a>
+                </li>
+                <li>
+                  <a href="#">Карта сайта</a>
+                </li>
+              </ul>
+            </li>
+            <li class="foot-menu-li">
+              <a href="" class=""><h4>О нас</h4></a>
+              <a class="foot-sub-btn" id="foot-sub-btn" href="#">
+                <img src="images/footer/footer-arr.svg" alt="" />
+              </a>
+            </li>
+            <li class="foot-menu-li">
+              <a href="" class=""><h4>Направлени</h4></a>
+              <a class="foot-sub-btn" id="foot-sub-btn" href="#">
+                <img src="images/footer/footer-arr.svg" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container">
+            <span>
+              © 2023 Академия профессиональной медицинывсе права защищены
+            </span>
+            <a href="#" class="">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

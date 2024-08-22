@@ -1,0 +1,118 @@
+.error-p-main {
+  background: url("../images/er1.png") no-repeat;
+  background: url("../images/error.jpg") no-repeat;
+  background-size: cover;
+  /* background: none; */
+  /* border: 2px solid blue; */
+  /* position: relative; */
+  padding: 315px 0 376px;
+}
+
+.error-p-main .container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.error-p-main .page-main-t {
+  font-size: 90px;
+  margin: 0;
+  padding: auto;
+  margin-bottom: 54px;
+  /* padding-top: 316px; */
+}
+
+.error-p-main p {
+  font-size: 24px;
+  max-width: 500px;
+  margin-bottom: 85px;
+}
+
+.error-p-main a {
+  width: 309px;
+  height: 72px;
+}
+
+.error-p-main img {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 1440px) {
+  .error-p-main {
+    padding: 117px 0 214px;
+  }
+
+  .error-p-main img {
+    width: 527px;
+  }
+
+  .error-p-main .page-main-t {
+    font-size: 64px;
+    margin-bottom: 24px;
+  }
+
+  .error-p-main p {
+    font-size: 20px;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.1px;
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .error-p-main img {
+    width: 376px;
+    top: 100%;
+  }
+
+  .error-p-main .page-main-t {
+    font-size: 56px;
+  }
+
+  .error-p-main .page-main-s {
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: -0.255px;
+    margin-bottom: 30px;
+    max-width: 345px;
+  }
+
+  .error-p-main .green-btn {
+    font-size: 16px;
+    width: 216px;
+    height: 55px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .error-p-main {
+    padding: 55px 0 77px;
+  }
+
+  .error-p-main .page-main-t {
+    font-size: 40px;
+  }
+  .error-p-main .green-btn:first-of-type {
+    /* display: none; */
+    margin: 55px auto 0;
+  }
+
+  .error-p-main img {
+    width: 322px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+  }
+
+  .error-p-main .page-main-s {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.07px;
+    max-width: none;
+    margin-bottom: 20px;
+  }
+}

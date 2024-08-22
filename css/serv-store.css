@@ -1,0 +1,24 @@
+.serv-store-main {
+  background: url("../images/service-store.jpg") no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.serv-store-tabs {
+  margin-top: 30px;
+}
+
+.s-map-info.serv-store {
+  padding-top: 0;
+}
+
+.serv-store-input .container{
+  overflow: visible;
+}
+
+@media screen and (max-width: 440px) {
+  .serv-store-tabs {
+    flex-direction: column;
+    gap: 0;
+  }
+}

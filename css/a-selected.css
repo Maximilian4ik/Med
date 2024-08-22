@@ -1,0 +1,203 @@
+.a-s-content {
+  max-width: 868px;
+  margin: 0;
+}
+
+.alalysis-selected-cards {
+  margin-top: 40px;
+}
+
+.alalysis-selected-card {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 30px 50px 41px 20px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.alalysis-selected-card .like-btn {
+  right: 14px;
+  top: 14px;
+}
+
+.alalysis-selected-card .like-btn img {
+  width: 17px;
+  height: 15px;
+}
+
+.alalysis-selected-card .content {
+  max-width: 572px;
+}
+.alalysis-selected-card .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 26px;
+  position: relative;
+}
+
+.alalysis-selected-card .info::before {
+  position: absolute;
+  content: "";
+  width: 18px;
+  height: 18px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../img/Thunder.svg") no-repeat;
+}
+
+.alalysis-selected-card .info span {
+  color: #93969d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 112.5% */
+}
+
+.alalysis-selected-card .info img {
+  display: block;
+}
+
+.alalysis-selected-card p {
+  color: #5b5b5b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+  margin-bottom: 38px;
+}
+
+.price-info button {
+  width: 146px;
+  height: 39px;
+  margin-top: 14px;
+}
+
+.lk-act-card {
+  width: 385px;
+  height: 487px;
+  padding-top: 41px;
+  padding-left: 28px;
+  padding-right: 20px;
+  background-size: cover;
+}
+
+.a-s-wrapper {
+  justify-content: space-between;
+}
+
+.a-s-content .res-btn {
+  margin-top: 44px;
+}
+.alalysis-selected-card .price-info > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1621px) {
+  .alalysis-selected-card .price-info {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1592px) {
+  .alalysis-selected-card .info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .alalysis-selected-card p {
+    margin-bottom: 20px;
+  }
+  .alalysis-selected-card .info::before {
+    top: 0;
+    transform: translateY(0);
+  }
+  .alalysis-selected-card {
+    padding: 34px 13px 26px 9px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1360px) {
+  .lk-act-card {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 817px) {
+  .alalysis-selected-card {
+    padding-right: 15px;
+  }
+
+  .alalysis-selected-card .like-btn {
+    top: 10px;
+  }
+  .alalysis-selected-card .info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .alalysis-selected-card p {
+    margin-bottom: 20px;
+  }
+  .alalysis-selected-card .info::before {
+    top: 0;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .alalysis-selected-card p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .alalysis-selected-card .info span {
+    font-size: 14px;
+  }
+
+  .alalysis-selected-card {
+    flex-direction: column;
+  }
+
+  .alalysis-selected-card .price-info {
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+  }
+
+  .alalysis-selected-card .price-info .green-btn {
+    margin-left: 20px;
+  }
+
+  .alalysis-selected-card .price-info > div {
+    width: 147px;
+  }
+
+  .alalysis-selected-card .info span img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .alalysis-selected-card .price-info {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .alalysis-selected-card {
+    min-height: 320px;
+  }
+
+  .alalysis-selected-card .price-info .green-btn {
+    margin-left: 0;
+  }
+}

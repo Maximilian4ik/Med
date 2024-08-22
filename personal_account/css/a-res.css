@@ -1,0 +1,270 @@
+.a-res-content {
+  max-width: 994px;
+}
+
+.a-results {
+  margin-top: 44px;
+}
+
+.a-res-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.a-results h5 {
+  color: #4e5754;
+  font-family: Oswald;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 369;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: -0.36px;
+}
+
+.a-results .price-info {
+  align-items: center;
+}
+
+.a-res-subtitle {
+  margin-top: 27px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.a-res-subtitle span {
+  position: relative;
+  color: #93969d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  padding-left: 28px;
+}
+
+.a-res-subtitle span::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background: url("../img/start/green-check.svg");
+}
+
+.a-res-subtitle span b {
+  color: #057373;
+}
+
+.a-res-subtitle .analysis-card-buttons {
+  margin-top: 0;
+}
+
+.a-res-button button:nth-child(1)::before {
+  position: absolute;
+  content: 0;
+  background: url("../img/start/dowload.svg");
+}
+
+.a-res-button button:nth-child(2)::before {
+  position: absolute;
+  content: 0;
+  background: url("../img/start/repeat.svg");
+}
+
+.res-num {
+  display: block;
+  color: #4e5754;
+  font-family: Oswald;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 369;
+  line-height: 24px; /* 100% */
+  letter-spacing: 0.1px;
+  margin-bottom: 24px;
+}
+
+.res-table-wrap {
+  overflow-x: auto;
+  padding: 30px 28px 19px;
+  border-radius: 5px;
+  border: 1px solid #e5eff0;
+  background: #fff;
+  margin-bottom: 32px;
+  /* width: 100%; */
+}
+
+.res-table {
+  width: 100%;
+  /* min-width: 955px; */
+  text-align: left;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 3px;
+}
+
+.res-table thead td {
+  color: #5b5b5b;
+  font-family: Roboto Flex;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.1px;
+  padding-bottom: 20px;
+}
+
+.res-table tbody td {
+  color: #93969d;
+  font-family: Roboto Flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  padding: 14px 0;
+  margin: 14px 0;
+}
+
+.res-table tbody tr:not(:last-child) {
+  border-bottom: 1px solid #e5eff0;
+}
+
+/* 
+.res-table div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.res-table span {
+  max-width: 206px;
+  text-align: left;
+} */
+
+.res-disclaimer {
+  margin-top: 22px;
+  color: #93969d;
+  display: block;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+
+.start-content .input-container input {
+  background: none;
+}
+
+.a-res-content .start-content-name {
+  font-size: 60px;
+}
+
+.results-display {
+  text-align: center;
+  margin-top: 102px;
+}
+
+.results-display p {
+  color: #5b5b5b;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 347;
+  line-height: 60px; /* 150% */
+  margin-bottom: 50px;
+}
+
+.results-display a {
+  width: 331px;
+  height: 61px;
+  margin: 30px auto 0;
+}
+
+.res-table tbody td.red {
+  color: #e44342;
+}
+
+@media screen and (max-width: 1440px) {
+  .start-content-name {
+    font-size: 56px;
+    margin-bottom: 28px;
+  }
+
+  .a-results {
+    margin-top: 44px;
+  }
+  .res-table-wrap {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+}
+
+@media screen and (max-width: 1090px) {
+  .a-res-content {
+    max-width: 100%;
+  }
+
+  .res-table {
+    width: 950px;
+  }
+  .a-results h5 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 90.909% */
+    letter-spacing: 0.22px;
+  }
+
+  .a-results {
+    margin-top: 49px;
+  }
+
+  .a-res-subtitle {
+    margin: 29px 0 40px;
+  }
+
+  .a-res-title .price-info .green-text {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .a-res-content .start-content-name {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 369;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.54px;
+  }
+
+  .a-res-title {
+    display: block;
+  }
+
+  .a-res-subtitle {
+    display: block;
+    margin: 5px 0 40px;
+  }
+
+  .a-results h5 {
+    margin-bottom: 10px;
+  }
+
+  .a-res-subtitle span {
+    margin-bottom: 22px;
+    display: block;
+  }
+
+  .a-results {
+    margin-top: 40px;
+  }
+  .input-container button {
+    right: 22px;
+  }
+}

@@ -1,0 +1,12 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icons/misc/available">
+<circle id="Ellipse" cx="10" cy="10" r="10" fill="url(#paint0_linear_95_10190)"/>
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M9.64457 14.216L15.6534 8.20711C16.044 7.81658 16.044 7.18342 15.6534 6.79289C15.2629 6.40237 14.6298 6.40237 14.2392 6.79289L8.93591 12.0962L6.1075 9.26778C5.71698 8.87725 5.08381 8.87725 4.69329 9.26777C4.30276 9.65829 4.30276 10.2915 4.69328 10.682L8.2288 14.2175C8.57051 14.5593 9.098 14.602 9.48615 14.3457C9.5416 14.3091 9.5942 14.2664 9.64302 14.2176C9.64354 14.217 9.64405 14.2165 9.64457 14.216Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_95_10190" x1="3.72437" y1="-2.07326e-07" x2="20" y2="24.0049" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF9568"/>
+<stop offset="1" stop-color="#FF9568" stop-opacity="0.26"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,30 @@
+form .is-invalid {
+  border: 1px solid #f10000;
+}
+#office-auth-register {
+  display: flex;
+}
+
+.store-nav a::after {
+  display: none !important;
+}
+
+.alalysis-selected-card .like-btn {
+  width: 19px;
+  height: 17px;
+}
+.doc-buttons .like-btn,
+.special-slider-card .like-btn {
+  width: 29px;
+  height: 26px;
+}
+.like-btn {
+  background-image: url("/assets/template/images/like.svg");
+  background-size: cover;
+}
+.like-btn img {
+  display: none;
+}
+.like-btn.voted {
+  background-image: url("/assets/template/images/active_like.svg");
+}

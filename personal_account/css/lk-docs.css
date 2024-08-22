@@ -1,0 +1,290 @@
+.lk-card {
+  width: calc(50% - 11px);
+}
+
+.lk-dock-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.lk-dock-top > * {
+  margin: 0;
+}
+
+.start-clear {
+  position: relative;
+  color: rgba(91, 91, 91, 0.6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  padding-left: 24px;
+}
+
+.start-clear:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  background: url("../img/clear.svg");
+}
+
+.lk-doc-btn {
+  border-radius: 6px;
+  border: 2px solid #057373;
+}
+
+@media screen and (max-width: 660px) {
+  .lk-cards {
+    justify-content: center;
+  }
+  .lk-card {
+    max-width: 421px;
+    width: 100%;
+  }
+
+  .lk-doc-btn {
+    width: 198px;
+    height: 51px;
+  }
+
+  .lk-dock-top {
+    flex-direction: column;
+  }
+
+  .lk-dock-top .start-tabs {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .select-tabs .start-tab {
+    padding-right: 28px;
+  }
+
+  .input-container button {
+    right: 4px;
+    width: 32px;
+    height: 32px;
+  }
+  .start-content .input-container input {
+    font-size: 14px;
+  }
+}
+
+/* .lk-cards {
+  display: none;
+}
+
+.alalysis-selected-cards {
+  display: none;
+} */
+
+.lk-act-card {
+  margin-left: 20px;
+}
+
+.alalysis-selected-cards {
+  width: 100%;
+}
+
+.s-services {
+  width: 100%;
+}
+
+.s-service {
+  padding: 33px 52px 25px 24px;
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  margin-bottom: 12px;
+}
+
+.s-service > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s-service .top {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e9f4f2;
+  margin-bottom: 23px;
+}
+
+.s-service p {
+  color: #5b5b5b;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+}
+.s-service button {
+  width: 110px;
+  height: 43px;
+}
+.s-service .bottom span {
+  display: block;
+  color: #93969d;
+  font-family: Roboto Flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 112.5% */
+  padding-left: 26px;
+  position: relative;
+}
+
+.s-service .bottom span::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url(../img/red-check.svg) no-repeat;
+  background-size: cover;
+}
+
+.s-service.green .bottom span::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 12px;
+  background: url(../img/s-location.svg) no-repeat;
+  background-size: cover;
+}
+
+/* .tab-content,
+.lk-act-card {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.lk-act-card.active {
+  display: block;
+} */
+
+.select-tabs .tab {
+}
+
+/* #lk-cards {
+  display: flex;
+  width: 100%;
+} */
+
+/* .s-content {
+  display: none;
+} */
+
+/* 
+.s-content,
+.lk-act-card {
+  display: none;
+}
+
+.s-content.active {
+  display: block;
+}
+
+.lk-act-card.active {
+  display: block;
+} */
+
+.lk-cards {
+  width: 100%;
+}
+
+.s-content {
+  display: none;
+}
+
+.lk-act-card {
+  display: none;
+}
+
+.s-content.active {
+  display: block;
+}
+
+.s-content.lk-cards.active {
+  display: flex;
+}
+
+.s-content.active + .lk-act-card {
+  display: block;
+}
+
+.s-content .lk-cards {
+  width: 100%;
+}
+
+#lk-cards {
+  width: 100%;
+}
+
+.start-wrapper.selected {
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: 1440px) {
+  .start-wrapper.selected {
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .start-wrapper.selected {
+    margin-bottom: 79px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .start-wrapper.selected {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .s-service > div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .s-service p {
+    margin-bottom: 10px;
+  }
+
+  .s-service .top {
+    padding-bottom: 8px;
+  }
+  .s-service .bottom span {
+    margin-bottom: 20px;
+  }
+
+  .s-service {
+    padding: 25px 21px 17px 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .s-service p {
+    font-size: 16px;
+  }
+
+  .s-service .bottom span {
+    font-size: 14px;
+  }
+}
+
+.lk-doc-btn {
+  margin-bottom: 0;
+}
